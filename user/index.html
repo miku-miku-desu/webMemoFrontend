@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>登录</title>
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <script src="../plugin/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/crypto-js@4.1.1/crypto-js.min.js"></script>
+    <script src="js/login.js"></script>
+</head>
+<body>
+    <login-page>
+        <main>
+            <h1>登录</h1>
+            <input type="text" id="username" placeholder="用户名">
+            <input type="password" id="password" placeholder="密码">
+            <input type="text" id="host" placeholder="服务器(留空默认)">
+            <button id="login">登录</button>
+            <div class="blank"></div>
+            <button id="toRegister">注册</button>
+        </main>
+    </login-page>
+
+    <register-page>
+        <main>
+            <h1>注册</h1>
+            <input type="text" id="rUsername" placeholder="用户名">
+            <input type="password" id="rPassword" placeholder="密码">
+            <input type="text" id="rHost" placeholder="服务器(留空默认)">
+            <button id="register">注册</button>
+            <div class="blank"></div>
+            <button id="toLogin">登录</button>
+        </main>
+    </register-page>
+</body>
+</html>

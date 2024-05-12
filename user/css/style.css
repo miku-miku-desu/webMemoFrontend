@@ -1,0 +1,41 @@
+login-page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+login-page main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.blank {
+    height: 50px;
+}
+
+register-page {
+    /*display: none;*/
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: white;
+}
+
+register-page main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
